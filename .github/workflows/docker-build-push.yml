@@ -60,11 +60,11 @@ jobs:
 
       - name: Build Docker image 
 
-        run: docker build -t hkshitesh/refundsapi . 
+        run: docker build -t hkshitesh/refundsapi .
 
  
 
       - name: Push Docker image 
 
-        run: docker push hkshitesh/refundsapi 
+        run: docker push koar1366/refundsapi
         
